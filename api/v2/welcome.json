@@ -1,0 +1,68 @@
+{
+    "news":[
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Jackbox Utility",
+            "smallDescription":"Ласкаво просимо до Jackbox Utility!",
+            "content":"# Це нова версія Jackbox Utility!\n\nВітаємо!",
+            "image":"news_images/jackboxutility.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Спілкуйся з перекладачами",
+            "smallDescription":"Спілкуйся з перекладачами",
+            "content":"# Приєднуйтесь до нашого сервера спільноти Discord!\n\n<https://discord.gg/Ayxf9Cvfg9>",
+            "image":"news_images/discord.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Читай у Telegram",
+            "smallDescription":"Читай у Telegram",
+            "content":"# <https://t.me/tutusa_team>",
+            "image":"news_images/telegram.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Слідкуй у Facebook",
+            "smallDescription":"Слідкуй у Facebook",
+            "content":"# <https://discord.gg/Ayxf9Cvfg9>",
+            "image":"news_images/youtube.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Дивись відео",
+            "smallDescription":"Дивись відео",
+            "content":"# <https://www.youtube.com/@tutusa>",
+            "image":"news_images/youtubes.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Підтримуй переклади",
+            "smallDescription":"Підтримуй переклади",
+            "content":"# <https://www.patreon.com/tutusa>",
+            "image":"news_images/pateon.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Дивись стріми",
+            "smallDescription":"Дивись стріми",
+            "content":"# <https://www.twitch.tv/tutusa_team>",
+            "image":"news_images/twitch.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Donatello",
+            "smallDescription":"Внеси свій вклад",
+            "content":"# <https://donatello.to/tusa>",
+            "image":"news_images/donatello.png"
+        },
+        {
+            "id":"2023-02-22 19:02:14",
+            "title":"Купуй в Steam",
+            "smallDescription":"Швидше!",
+            "content":"# <https://store.steampowered.com/app/1850960/The_Jackbox_Party_Pack_9/>",
+            "image":"news_images/jackbox9.jpg"
+        }
+    ]
+
+}
