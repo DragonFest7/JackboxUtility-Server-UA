@@ -2103,65 +2103,7 @@
         "epic": "https://store.epicgames.com/p/jackbox-party-pack-9",
         "jackbox_games_store": "http://shrsl.com/44k1v"
       },
-      "patchs": [
-        {
-          "id": "jpp9_ua",
-          "name": "Jackbox Party Pack 9",
-          "small_description": "Текстовий переклад трьох ігор.",
-          "description": "Текстовий переклад трьох ігор.",
-          "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
-          "configuration": {
-            "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/DragonFest7/tjpp-9-ua-patch/main/jbg.config.jet",
-            "version_property": "buildVersion"
-          },
-          "components": [
-            {
-              "id": "roomerang_ua",
-              "linked_game": "roomerang",
-              "name": "Квартиранг",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            },
-            {
-              "id": "junktopia_ua",
-              "linked_game": "junktopia",
-              "name": "Сміттєтопія",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            },
-            {
-              "id": "quixort_ua",
-              "linked_game": "quixort",
-              "name": "Швидкосорт",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            }
-          ],
+      "patchs": [],
           "games": [
             {
               "id": "fibbage4",
