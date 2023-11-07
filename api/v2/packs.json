@@ -37,13 +37,7 @@
       "name": "Українські переклади",
       "smallDescription": "від TUSA | Ukrainian Gaming Community",
       "patchs": [
-        "jpp5_ua",
-        "jpp6_ua",
-        "jpp7_ua",
-        "jpp8_ua",
-        "jpp9_ua",
-        "jpp10_ua",
-        "jpstarter_ua"
+        "jpp9_ua"
       ]
     }
   ],
