@@ -1,57 +1,42 @@
 {
     "tags":[
        {
-             "id":"talking",
-             "name":"Спілкування",
-             "icon":"megaphone",
-             "description":"У цих іграх вам доведеться щось обговорювати з іншими гравцями для просування далі."
-        },
-        {
-        "id":"drawing",
-             "name":"Малювання",
-             "icon":"edit",
-             "description":"У цих іграх вам доведеться малювати."
-        },
-        {
-        "id":"deduction",
-             "name":"Писання",
-             "icon":"comment_urgent",
-             "description":"У цих іграх вам доведеться писати."
-        },
-        {
-        "id":"knowledge",
-             "name":"Вікторина",
-             "icon":"unknown",
-             "description":"Це вікторини."
-        },
-        {
-             "id":"writing",
-             "name":"Загальні знання",
-             "icon":"text_align_middle",
-             "description":"У цих іграх вам доведеться відповідати на загальні питання."
-         }
+            "id":"talking",
+            "name":"Discussion",
+            "icon":"megaphone",
+            "description":"Игры, которые требуют или выигрывают от громкого обсуждения между игроками."
+       },
+       {
+       	    "id":"drawing",
+            "name":"Drawing",
+            "icon":"edit",
+            "description":"В этих играх надо рисовать."
+       },
+       {
+       	    "id":"deduction",
+            "name":"Strategy",
+            "icon":"comment_urgent",
+            "description":"Вам придется хорошо подумать о своих действиях в этих играх.."
+       },
+       {
+       	    "id":"knowledge",
+            "name":"Trivia",
+            "icon":"unknown",
+            "description":"Это викторины."
+       },
+       {
+            "id":"writing",
+            "name":"Writing",
+            "icon":"text_align_middle",
+            "description":"Вам придется писать в этих играх."
+        }
     ],
-    "patchsCategories": [
-    {
-      "id": "ukrainian_patchs",
-      "name": "Українські переклади",
-      "smallDescription": "від TUSA | Ukrainian Gaming Community",
-      "patchs": [
-        "jpp5_ua",
-		"jpp6_ua",
-		"jpp7_ua",
-		"jpp8_ua",
-        "jpp9_ua",
-		"jpp10_ua",
-        "jpstarter_ua"
-      ]
-    }
-  ],
+    "patchsCategories":[],
     "packs":[
     {
         "id":"jpp1",
         "name":"The Jackbox Party Pack",
-        "description":"Year of release: 2014",
+        "description":"Год выпуска: 2014",
         "launchers_id":{
             "steam":"331670",
             "epic":"Feverfew"
@@ -75,7 +60,36 @@
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1",
             "jackbox_games_store":"http://shrsl.com/44k1h"
         },
-            "patchs":[],
+            "patchs":[{
+                    "id": "jpp1_pro",
+                    "name": "The Jackbox Party Pack 1",
+                    "small_description": "Плодослов - перевод на WordSpud.",
+                    "description": "Плодослов - перевод на WordSpud.",
+                    "version": "Build:  b0.1 - RU",
+                    "patch_path": "https://files.catbox.moe/qt5zgo.zip",
+                    "configuration": {
+                        "version_origin": "repo_file",
+                        "version_file": "https://files.catbox.moe/8rzgea.txt",
+                        "version_property": "buildVersion"
+                    },
+                    "components": [
+                        {
+                            "id": "wordspud_patch",
+                            "linked_game": "wordspud",
+                            "name": "Плодослов",
+                            "description": "Плодослов - перевод на WordSpud с 35 тысячью словами.",
+                            "authors": "Пускай",
+                            "small_description": "Плодослов - перевод на WordSpud с 35 тысячью словами.",
+                            "patch_type": {
+                                "game_text": true,
+                                "game_assets": true,
+                                "game_subtitles": false,
+                                "website": true,
+                                "audios": false
+                            }
+                        }
+                    ]
+		}],
         "games":[
             {
                 "id":"ydkj2015",
@@ -171,7 +185,7 @@
             },
             {
                 "id":"wordspud",
-                "name":"Word Spud",
+                "name":"Плодослов",
                 "background":"game_backgrounds/WordSpud.webp",
                 "path":"games/WordSpud",
                 "game_info":{
@@ -188,13 +202,13 @@
                     "audience":false,
                     "stream_friendly":"PLAYABLE",
                     "moderation":"NO_MODERATION",
-                    "moderation_description":"Players can submit text.",
+                    "moderation_description":"Игроки могут писать текст.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"PASS IT AROUND",
                     "small_description":"PASS IT AROUND",
-                    "description":"Keep the words rolling all night! Just finish the word coming toward you, like “Mail___.” Mail enhancement, you say? You nailed it.",
+                    "description":"Передавайте слова целую ночь! Просто продолжите ваше слово... Например: \"Почта___.\" Твой вариант – \"Почта из спама\"? Ты понял суть.",
                     "images":[
                         "game_images/WordSpud/wordspud.mp4",
                         "game_images/WordSpud/wordspud_1.webp",
@@ -215,7 +229,7 @@
             },
             {
                 "id":"lieswatter",
-                "name":"Мухі Ўрухі",
+                "name":"Lie Swatter",
                 "background":"game_backgrounds/LieSwatter.webp",
                 "path":"games/LieSwatter",
                 "game_info":{
@@ -232,13 +246,13 @@
                     "audience":false,
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"Players can submit text.",
+                    "moderation_description":"This game doesn't require moderation.",
                     "subtitles":false,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
                     "tagline":"Is it true or false?",
                     "small_description":"Is it true or false?",
-                    "description":"Do lobsters pee out of their heads? Has Japan recognized instant noodles as the greatest invention of the 20th century? Or is this a lie?\n\nNOTE: Opening this game with the utility will open the Party Pack menu, skipping the intro. This is done on purpose as the game freezes when trying to open it more effectively like other games.",
+                    "description":"Do lobsters pee out of their heads? Did Japan vote the instant noodle the top invention of the 20th century? Or are you calling BS?\n\nNOTE: Opening this game with the Utility will open the Party Pack menu, skipping the introduction. This is intentional, as the game freezes when trying to open it more efficiently like other games.",
                     "images":[
                         "game_images/LieSwatter/lieswatter.mp4",
                         "game_images/LieSwatter/lieswatter_1.webp",
@@ -2230,65 +2244,7 @@
         "epic":"https://store.epicgames.com/p/jackbox-party-pack-9",
         "jackbox_games_store":"http://shrsl.com/44k1v"
     },
-        "patchs":[
-        {
-          "id": "jpp9_ua",
-          "name": "Jackbox Party Pack 9",
-          "small_description": "Текстовий переклад трьох ігор.",
-          "description": "Текстовий переклад трьох ігор.",
-          "patch_path": "https://github.com/easysugar/jackbox-pack-3/releases/latest/download/JPP3-ua.zip",
-          "configuration": {
-            "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/easysugar/jackbox-pack-3/main/config.jet",
-            "version_property": "buildVersion"
-          },
-          "components": [
-            {
-              "id": "roomerang_patch",
-              "linked_game": "roomerang",
-              "name": "Квартиранг",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            },
-            {
-              "id": "junktopia_patch",
-              "linked_game": "junktopia",
-              "name": "Сміттєтопія",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            },
-            {
-              "id": "quixort_patch",
-              "linked_game": "quixort",
-              "name": "Швидкосорт",
-              "description": "Повний текстовий переклад гри.",
-              "authors": "- TUSA | Ukrainian Gaming Community",
-              "small_description": "Повний текстовий переклад гри",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": false,
-                "website": true,
-                "audios": true
-              }
-            }
-          ],
+        "patchs":[],
         "games":[
             {
                 "id":"fibbage4",
@@ -2353,16 +2309,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"Глядачі можуть голосувати за вподобані відповіді. Крім того, вони можуть відповідти на різні питання, коли гравці набирають текст.",
+                    "audience_description":"The audience can vote for their favorite answers. In addition, they answer different polls as the players type.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"З увімкненою опцією «Модерація» модератори, зайшовши на mod.jackbox.in.ua, зможуть вирішувати, що відображатиметься на екрані. Вони також можуть вигнати гравців з гри. За необхідності рекомендовано увімкнути опцію «Фільтр нецензурної лексики».",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Чи можете ви виграти у Квартиранг?",
-                    "small_description":"Увімкніть свою внутрішню зірку реаліті-шоу та спробуйте вирватись на перше місце!",
-                    "description":"**Квартиранг** — гра розрахована на 4–9 гравців і присвячена реаліті-шоу. Гравці беруть на себе ролі персонажів із визначальною рисою та мають давати відповіді, які відповідають цій рисі, а також працювати з рисами інших персонажів. Гравець з найбільшою кількістю відповідей виграє раунд і отримує перевагу в наступному вибуванні. Вибулі гравці втрачають деякі очки, але повертаються в гру з новою рисою. Перемагає гравець, який набрав найбільшу кількість очок після п'яти раундів.",
+                    "tagline":"Will you stay in the house?",
+                    "small_description":"Will you stay in the house?",
+                    "description":"Channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out. Never fear though, even when you’re out you’ll find yourself Roomerang-ed right back into the drama!",
                     "images":[
                         "game_images/Roomerang/roomerang.mp4",
                         "game_images/Roomerang/roomerang_1.jpg",
@@ -2398,19 +2354,19 @@
                         "min":20,
                         "max":25
                     },
-                    "family_friendly": "OPTIONAL",
-					"audience": true,
-					"audience_description": "Глядачі можуть голосувати за вподобані відповіді.",
-					"stream_friendly": "MIDLY_PLAYABLE",
-					"stream_friendly_description": "Оскільки це презентаційна гра, рекомендується, щоб гравці могли принаймні чути один одного.",
-					"moderation": "FULL_MODERATION",
-					"moderation_description": "З увімкненою опцією «Модерація» модератори, зайшовши на mod.jackbox.in.ua, зможуть вирішувати, що відображатиметься на екрані. Вони також можуть вигнати гравців з гри. За необхідності рекомендовано увімкнути опцію «Фільтр лихослів'я».",
-					"subtitles": true,
-					"type": "VERSUS",
-					"translation": "ENGLISH",
-					"tagline": "Продайте свої товари!",
-					"small_description": "Дивний чарівник перетворив вас на жаб! Вигадайте кумедні передісторії для різноманітних товарів, а потім оцініть їх. Гравець з найціннішими предметами знову стає людиною!",
-					"description": "**Сміттєтопія** — гра розрахована на 3–8 гравців. Гравці вибирають один цікавий предмет із трьох випадкових предметів, купують цей предмет за гроші, які їм надають на початку. Гравці можуть спробувати поторгуватися, але це може призвести до негативних наслідків і змусити їх заплатити більше, ніж початкова ціна. Потім вони повинні дати фальшиву назву та історію цим об'єктам, а потім спробувати продати їх іншим гравцям за найбільшу суму грошей порівняно з предметами інших гравців.",
+                    "family_friendly":"OPTIONAL",
+                    "audience":true,
+                    "audience_description":"The audience can vote for their favorite answers.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "subtitles":true,
+                    "type":"VERSUS",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Sell your items",
+                    "small_description":"Sell your items",
+                    "description":"A strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
                     "images":[
                         "game_images/Junktopia/junktopia.mp4",
                         "game_images/Junktopia/junktopia_1.jpg",
@@ -2428,7 +2384,9 @@
                     "path":"loaders/tjpp9/junktopia.zip",
                     "version":"1.0.0"
                 },
-                "patchs":[]
+                "patchs":[
+                    
+                ]
             },
             {
                 "id":"nonsensory",
@@ -2494,17 +2452,17 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description": "Глядачі об'єднуються в команди і сортують блоки так само, як і гравці. Наприкінці гри перемагає команда глядачів, яка зробить це найкраще.",
-					"stream_friendly": "MIDLY_PLAYABLE",
-					"stream_friendly_description": "Being a discussion game, it's recommended for players to be able to at least hear each other.",
-					"moderation": "FULL_MODERATION",
-					"moderation_description": "З увімкненою опцією «Модерація» модератори, зайшовши на mod.jackbox.in.ua можуть вигнати гравців з гри за необхідності.",
-					"subtitles": true,
-					"type": "TEAM",
-					"translation": "ENGLISH",
-					"tagline": "Сортуйте блоки!",
-					"small_description": "Працюйте разом зі своєю командою, щоб відсортувати відповіді, що падають, у правильному порядку, перш ніж вони потраплять на підлогу!",
-					"description": "**Швидкосорт** — гра розрахована на 1–10 гравців і пропонує гравцям підказку, за якою гравці будуть сортувати відповіді, наприклад «тварини за кількістю ніг». Потім відповіді представлені у вигляді падучих блоків, які гравці повинні спробувати розмістити в належному порядку. У гру грають командою, але окремий варіанті гри — **Швидкосорт Без Меж**, дозволяє одному гравцеві або одній команді спробувати просунутися якомога далі.",
+                    "audience_description":"The audience joins a team and orders the blocks just like the players. The audience team that does it best wins at the end of the game.",
+                    "stream_friendly":"MIDLY_PLAYABLE",
+                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
+                    "moderation":"FULL_MODERATION",
+                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "subtitles":true,
+                    "type":"TEAM",
+                    "translation":"NATIVELY_TRANSLATED",
+                    "tagline":"Order the blocks",
+                    "small_description":"Order the blocks",
+                    "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
                     "images":[
                         "game_images/Quixort/quixort.mp4",
                         "game_images/Quixort/quixort_1.jpg",
