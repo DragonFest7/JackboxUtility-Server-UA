@@ -1,14 +1,14 @@
 {
-    "id":"jackbox-ru",
-    "name":"Jackbox на Русском",
-    "description":"Переводы на Jackbox!",
+    "id":"jackbox-ua",
+    "name":"Jackbox Українською",
+    "description":"Переклади на Jackbox від TUSA!",
     "image":"https://raw.githubusercontent.com/BurAndBY/JackboxUtility-Server-ru/main/assets/news_images/logo.png",
 
     "urls":[
         {
             "versions":["1.0.0"],
-            "api":"https://raw.githubusercontent.com/BurAndBY/JackboxUtility-Server-ru/main/api/v2/",
-            "assets":"https://raw.githubusercontent.com/BurAndBY/JackboxUtility-Server-ru/main/assets"
+            "api":"https://raw.githubusercontent.com/DragonFest7/JackboxUtility-Server-UA/main/api/v2/",
+            "assets":"https://raw.githubusercontent.com/DragonFest7/JackboxUtility-Server-UA/main/assets"
         }
     ],
     "controller":"jackbox.pro",
