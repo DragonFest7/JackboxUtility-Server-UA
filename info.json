@@ -11,7 +11,7 @@
             "assets":"https://raw.githubusercontent.com/DragonFest7/JackboxUtility-Server-UA/main/assets"
         }
     ],
-    "controller":"ua.jackbox.fun",
+    "controller":"jackbox.fun",
     "languages":["ru"],
     "links": [
         {
