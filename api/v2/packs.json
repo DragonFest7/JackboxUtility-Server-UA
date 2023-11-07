@@ -2118,10 +2118,10 @@
           "name": "Jackbox Party Pack 9",
           "small_description": "Текстовий переклад трьох ігор.",
           "description": "Текстовий переклад трьох ігор.",
-          "patch_path": "https://github.com/relghub/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
+          "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
           "configuration": {
             "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/relghub/tjpp-9-ua-patch/main/jbg.config.jet",
+            "version_file": "https://raw.githubusercontent.com/DragonFest7/tjpp-9-ua-patch/main/jbg.config.jet",
             "version_property": "buildVersion"
           },
           "components": [
