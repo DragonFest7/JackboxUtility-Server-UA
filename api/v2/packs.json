@@ -35,7 +35,7 @@
     {
       "id": "ukrainian_patchs",
       "name": "Українські переклади",
-      "smallDescription": "від TUSA | UGC",
+      "smallDescription": "від TUSA",
       "patchs": [
         "jpp9_ua"
       ]
