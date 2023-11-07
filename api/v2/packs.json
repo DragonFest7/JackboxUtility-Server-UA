@@ -31,14 +31,7 @@
       "description": "У цих іграх вам доведеться відповідати на загальні питання."
     }
   ],
-  "patchsCategories": [
-    {
-      "id": "ukrainian_patchs",
-      "name": "Українські переклади",
-      "smallDescription": "від TUSA | Ukrainian Gaming Community",
-      "patchs": [
-        "jpp9_ua"
-      ]
+  "patchsCategories": []
     }
   ],
   "packs": [
