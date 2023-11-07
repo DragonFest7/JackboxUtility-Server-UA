@@ -2126,7 +2126,7 @@
           },
           "components": [
             {
-              "id": "roomerang_patch",
+              "id": "roomerang_ua",
               "linked_game": "roomerang",
               "name": "Квартиранг",
               "description": "Повний текстовий переклад гри.",
@@ -2141,7 +2141,7 @@
               }
             },
             {
-              "id": "junktopia_patch",
+              "id": "junktopia_ua",
               "linked_game": "junktopia",
               "name": "Сміттєтопія",
               "description": "Повний текстовий переклад гри.",
@@ -2156,7 +2156,7 @@
               }
             },
             {
-              "id": "quixort_patch",
+              "id": "quixort_ua",
               "linked_game": "quixort",
               "name": "Швидкосорт",
               "description": "Повний текстовий переклад гри.",
