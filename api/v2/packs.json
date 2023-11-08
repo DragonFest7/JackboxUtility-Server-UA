@@ -31,7 +31,22 @@
       "description": "У цих іграх вам доведеться відповідати на загальні питання."
     }
   ],
-  "patchsCategories": [],
+  "patchsCategories": [
+    {
+      "id": "ukrainian_patchs",
+      "name": "Українські переклади",
+      "smallDescription": "від TUSA | Ukrainian Gaming Community",
+      "patchs": [
+        "jpp5_ua",
+        "jpp6_ua",
+        "jpp7_ua",
+        "jpp8_ua",
+        "jpp9_ua",
+        "jpp10_ua",
+        "jpstarter_ua"
+      ]
+    }
+  ],
   "packs": [
     {
       "id": "jpp1",
@@ -2103,7 +2118,65 @@
         "epic": "https://store.epicgames.com/p/jackbox-party-pack-9",
         "jackbox_games_store": "http://shrsl.com/44k1v"
       },
-      "patchs": [],
+      "patchs": [
+        {
+          "id": "jpp9_ua",
+          "name": "Jackbox Party Pack 9",
+          "small_description": "Текстовий переклад трьох ігор.",
+          "description": "Текстовий переклад трьох ігор.",
+          "patch_path": "https://github.com/easysugar/jackbox-pack-3/releases/latest/download/JPP3-ua.zip",
+          "configuration": {
+            "version_origin": "repo_file",
+            "version_file": "https://raw.githubusercontent.com/easysugar/jackbox-pack-3/main/config.jet",
+            "version_property": "buildVersion"
+          },
+          "components": [
+            {
+              "id": "roomerang_patch",
+              "linked_game": "roomerang",
+              "name": "Квартиранг",
+              "description": "Повний текстовий переклад гри.",
+              "authors": "- TUSA | Ukrainian Gaming Community",
+              "small_description": "Повний текстовий переклад гри",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": false,
+                "website": true,
+                "audios": true
+              }
+            },
+            {
+              "id": "junktopia_patch",
+              "linked_game": "junktopia",
+              "name": "Сміттєтопія",
+              "description": "Повний текстовий переклад гри.",
+              "authors": "- TUSA | Ukrainian Gaming Community",
+              "small_description": "Повний текстовий переклад гри",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": false,
+                "website": true,
+                "audios": true
+              }
+            },
+            {
+              "id": "quixort_patch",
+              "linked_game": "quixort",
+              "name": "Швидкосорт",
+              "description": "Повний текстовий переклад гри.",
+              "authors": "- TUSA | Ukrainian Gaming Community",
+              "small_description": "Повний текстовий переклад гри",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": false,
+                "website": true,
+                "audios": true
+              }
+            }
+          ],
           "games": [
             {
               "id": "fibbage4",
