@@ -37,13 +37,13 @@
 	    "id":"spanish_patchs",
 	    "name":"Traducción al Español Latino",
 	    "smallDescription":"¡Traduce los juegos al español latino!\n(Ve más abajo para la traducción al Español Castellano)",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpp10_es","jpstarter_es","fbxl_es","quip_es","quip2int_es","df2_es","uyw_es","wtd_es","rttg_es"]
+	    "patchs":["jpp9_es"]
 	},
     {
 	    "id":"spanish_spain_patchs",
 	    "name":"Traducción al Español Castellano",
 	    "smallDescription":"¡Traduce los juegos al español castellano!\nSolo los juegos que lo mencionan poseen una traducción al español castellano.\nTodos los demás se encuentran en español latino.",
-	    "patchs":["jpp1_es","jpp2_es","jpp3_es","jpp4_es","jpp5_es","jpp6_es","jpp7_es","jpp8_es","jpp9_es","jpp10_es","jpstarter_es","fbxl_es","quip_es_spain","quip2int_es_spain","df2_es_spain","uyw_es","wtd_es_spain","rttg_es"]
+	    "patchs":["jpp9_es"]
 	}
     ],
     "packs":[
@@ -73,82 +73,7 @@
             "steam":"https://store.steampowered.com/app/331670/The_Jackbox_Party_Pack/",
             "epic":"https://store.epicgames.com/p/jackbox-party-pack-1"
         },
-            "patchs":[
-                {
-                    "id":"jpp1_es",
-                    "name":"Traducción al Español Latino",
-                    "small_description":"Este Pack posee 4 de 5 juegos traducidos.\nYou Don't Know Jack 2015 no está traducido.",
-                    "description":"",
-                    "patch_path":"https://github.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/releases/latest/download/JPP1-ES.zip",
-                    "configuration": {
-						"version_origin":"repo_file",
-						"version_file":"https://raw.githubusercontent.com/AkiraArtuhaxis/The-Jackbox-Party-Pack-1-Spanish/main/Main/config.jet",
-						"version_property":"buildVersion"
-					},
-                    "components":[
-                        {
-                            "id":"drawful_patch",
-                            "linked_game":"drawful",
-                            "name":"Drawful",
-                            "description":"",
-                            "authors":"* Artuhaxis\n* Akira896",
-                            "small_description":"¡Juego traducido al español!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },
-                        {
-                            "id":"wordspud_patch",
-                            "linked_game":"wordspud",
-                            "name":"Papa Palabra",
-                            "description":"",
-                            "authors":"* Artuhaxis\n* Akira896 (SWF)\n* Fixed Fun (logo)",
-                            "small_description":"¡Juego traducido al español!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },
-                        {
-                            "id":"lieswatter_patch",
-                            "linked_game":"lieswatter",
-                            "name":"Mata Mentiras",
-                            "description":"",
-                            "authors":"* Fukken Hanzel (traducción principal)\n* Akira896 (SWF y logo)\n* Nicolaselzorro2 (traducción asistente)\n* TheDarkSid3r (imágenes adicionales)",
-                            "small_description":"¡Juego traducido al español!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        },                        {
-                            "id":"fibbagexl_patch",
-                            "linked_game":"fibbagexl",
-                            "name":"Fibbage XL",
-                            "description":"",
-                            "authors":"* Akira896 (traducción, imágenes y videos adicionales)\n* Fukken Hanzel (imágenes adicionales)\n* Fixed Fun (videos)",
-                            "small_description":"¡Juego traducido al español!",
-                            "patch_type":{
-                                "game_text":true,
-                                "game_assets":true,
-                                "game_subtitles":false,
-                                "website":true,
-                                "audios":false
-                            }
-                        }
-                    ]
-                    
-                }
-            ],
+            "patchs":[],
         "games":[
             {
                 "id":"ydkj2015",
