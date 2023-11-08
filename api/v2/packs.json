@@ -31,7 +31,9 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories":[],
+    "patchsCategories":[
+        "jpp9_ua"
+    ],
     "packs":[
     {
         "id":"jpp1",
@@ -2215,7 +2217,20 @@
         "epic":"https://store.epicgames.com/p/jackbox-party-pack-9",
         "jackbox_games_store":"http://shrsl.com/44k1v"
     },
-        "patchs":[],
+    "patchs": [
+        {
+          "id": "jpp9_ua",
+          "name": "Jackbox Party Pack 9",
+          "small_description": "TEST PATCH PACK 9",
+          "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
+          "configuration": {
+            "version_origin": "repo_file",
+            "version_file": "https://raw.githubusercontent.com/DragonFest7/tjpp-9-ua-patch/master/jbg.config.jet",
+            "version_property": "buildVersion"
+          },
+          "components": []
+        }
+    ],
         "games":[
             {
                 "id":"fibbage4",
