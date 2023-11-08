@@ -206,7 +206,7 @@
         },
         {
           "id": "lieswatter",
-          "name": "Мухі Ўрухі",
+          "name": " Lie Swatter",
           "background": "game_backgrounds/LieSwatter.webp",
           "path": "games/LieSwatter",
           "game_info": {
@@ -2124,10 +2124,10 @@
           "name": "Jackbox Party Pack 9",
           "small_description": "Текстовий переклад трьох ігор.",
           "description": "Текстовий переклад трьох ігор.",
-          "patch_path": "https://github.com/easysugar/jackbox-pack-3/releases/latest/download/JPP3-ua.zip",
+          "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/download/latest/tjpp9-ua.zip",
           "configuration": {
             "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/easysugar/jackbox-pack-3/main/config.jet",
+            "version_file": "https://raw.githubusercontent.com/DragonFest7/tjpp-9-ua-patch/master/jbg.config.jet",
             "version_property": "buildVersion"
           },
           "components": [
