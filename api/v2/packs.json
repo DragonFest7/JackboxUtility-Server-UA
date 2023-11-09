@@ -2,33 +2,33 @@
     "tags":[
        {
             "id":"talking",
-            "name":"Discussion",
+            "name":"Дискусії",
             "icon":"megaphone",
-            "description":"Games that require or benefit from out loud discussion between players."
+            "description":"Ігри, які вимагають або виграють від дискусії між гравцями вголос."
        },
        {
        	    "id":"drawing",
-            "name":"Drawing",
+            "name":"Малювання",
             "icon":"edit",
-            "description":"You'll have to draw in these games."
+            "description":"У цих іграх треба малювати."
        },
        {
        	    "id":"deduction",
-            "name":"Strategy",
+            "name":"Стратегія",
             "icon":"comment_urgent",
-            "description":"You'll have to think well of your actions in these games."
+            "description":"Вам доведеться замислитися над своїми діями в цих іграх..."
        },
        {
        	    "id":"knowledge",
-            "name":"Trivia",
+            "name":"Вікторина",
             "icon":"unknown",
-            "description":"Test your knowledge with these games."
+            "description":"Це вікторини."
        },
        {
             "id":"writing",
-            "name":"Writing",
+            "name":"Писання",
             "icon":"text_align_middle",
-            "description":"You'll have to write in these games."
+            "description":"Вам доведеться писати в цих іграх."
         }
     ],
     "patchsCategories": [
@@ -2200,7 +2200,7 @@
     {
         "id":"jpp9",
         "name":"The Jackbox Party Pack 9",
-        "description":"Year of release: 2022",
+        "description":"Рік випуску: 2022",
         "launchers_id":{
             "steam":"1850960",
             "epic":"ec6f77d356b247dc8d210850de8a3e2f"
@@ -2333,7 +2333,7 @@
             },
             {
                 "id":"roomerang",
-                "name":"Roomerang",
+                "name":"Квартиранг",
                 "background":"game_backgrounds/Roomerang.webp",
                 "path":"games/MakeFriends",
                 "game_info":{
@@ -2348,16 +2348,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience can vote for their favorite answers. In addition, they answer different polls as the players type.",
+                    "audience_description":"Глядачі можуть голосувати за вподобані відповіді. До того ж вони відповідають на різні опитування, коли гравці набирають текст.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть вирішувати, що зображатиметься на екрані. Вони також можуть усувати гравців з гри. За необхідності рекомендується увімкнути опцію \"Фільтр нецензурної лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Will you stay in the house?",
-                    "small_description":"Will you stay in the house?",
-                    "description":"Channel your inner reality TV star in an attempt to come out on top! Respond to prompts, bring the competition and role-play to avoid being voted out. Never fear though, even when you’re out you’ll find yourself Roomerang-ed right back into the drama!",
+                    "tagline":"Чи залишишся ти у цьому домі?",
+                    "small_description":"Чи залишишся ти у цьому домі?",
+                    "description":"Увімкніть свою внутрішню зірку реаліті-шоу і спробуйте вийти на вершину! Відповідайте на провокативні запитання, змагайтеся та грайте за своїми ролями, щоб уникнути вирішального голосу. Не бійтеся, навіть якщо вас виставлять за двері, ви знову опинитеся в ролі Квартиранта!",
                     "images":[
                         "game_images/Roomerang/roomerang.mp4",
                         "game_images/Roomerang/roomerang_1.jpg",
@@ -2380,7 +2380,7 @@
             },
             {
                 "id":"junktopia",
-                "name":"Junktopia",
+                "name":"Сміттєтопія",
                 "background":"game_backgrounds/Junktopia.webp",
                 "path":"games/AntiqueGame",
                 "game_info":{
@@ -2395,17 +2395,17 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience can vote for their favorite answers.",
+                    "audience_description":"Глядачі можуть голосувати за вподобані відповіді.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Being a presentation game, it's recommended for players to be able to at least hear each other.",
+                    "stream_friendly_description":"Оскільки ця гра зосереджена на презентації, бажано, щоб гравці могли принаймні чути один одного.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть вирішувати, що зображатиметься на екрані. Вони також можуть усувати гравців з гри. За необхідності рекомендується увімкнути опцію \"Фільтр нецензурної лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Sell your items",
-                    "small_description":"Sell your items",
-                    "description":"A strange wizard has turned you into a frog! Create hilarious backstories for weird objects and then get them appraised. The player with the most valuable items becomes human again!",
+                    "tagline":"Продавайте свої товари",
+                    "small_description":"Продавайте свої товари",
+                    "description":"Чарівник-дивак перетворив вас на жаб! Вигадуйте кумедні історії для незвичних предметів, а потім оцінюйте їх. Гравець з найціннішими предметами знову стає людиною!",
                     "images":[
                         "game_images/Junktopia/junktopia.mp4",
                         "game_images/Junktopia/junktopia_1.jpg",
@@ -2476,7 +2476,7 @@
             },
             {
                 "id":"quixort",
-                "name":"Quixort",
+                "name":"Швидкосорт",
                 "background":"game_backgrounds/Quixort.webp",
                 "path":"games/Lineup",
                 "game_info":{
@@ -2491,17 +2491,17 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience joins a team and orders the blocks just like the players. The audience team that does it best wins at the end of the game.",
+                    "audience_description":"Глядачі долучаються до команд і сортують блоки так само, як і гравці. Наприкінці гри перемагає команда глядачів, яка робитиме це найкраще.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Being a discussion game, it's recommended for players to be able to at least hear each other.",
+                    "stream_friendly_description":"Оскільки ця гра заснована на обговоренні, бажано, щоб гравці могли принаймні чути один одного.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to kick players off the game if necessary.",
+                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть усувати гравців з гри за потреби.",
                     "subtitles":true,
                     "type":"TEAM",
                     "translation":"NATIVELY_TRANSLATED",
-                    "tagline":"Order the blocks",
-                    "small_description":"Order the blocks",
-                    "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
+                    "tagline":"Ці блоки самі себе не відсортують!",
+                    "small_description":"Впорядковуйте блоки",
+                    "description":"Працюйте разом на цій сортувальній фабриці зі своєю командою, щоб відсортувати відповіді, що падають, у правильному порядку, перш ніж вони потраплять на конвеєр! Або ж грайте наодинці та перевіряйте, скільки блоків ви зможете відсортувати, поки вони вам не перекриють шлях. Це просто, як 1-2-3!",
                     "images":[
                         "game_images/Quixort/quixort.mp4",
                         "game_images/Quixort/quixort_1.jpg",
