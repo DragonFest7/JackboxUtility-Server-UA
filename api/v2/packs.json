@@ -31,9 +31,16 @@
             "description":"You'll have to write in these games."
         }
     ],
-    "patchsCategories":[
-        "jpp9_ua"
-    ],
+    "patchsCategories": [
+        {
+          "id": "ukrainian_patchs",
+          "name": "Українські переклади",
+          "smallDescription": "від TUSA",
+          "patchs": [
+            "jpp9_ua"
+          ]
+        }
+      ],
     "packs":[
     {
         "id":"jpp1",
