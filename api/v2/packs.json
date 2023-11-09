@@ -2228,7 +2228,7 @@
         {
           "id": "jpp9_ua",
           "name": "Jackbox Party Pack 9",
-          "small_description": "TEST PATCH PACK 9",
+          "small_description": "Текстовий переклад трьох ігор",
           "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
           "configuration": {
             "version_origin": "repo_file",
@@ -2240,7 +2240,7 @@
               "id": "roomerang_patch",
               "linked_game": "roomerang",
               "name": "Roomerang",
-              "description": "Roomerang",
+              "description": "Повний текстовий переклад",
               "authors": "TUSA",
               "small_description": "Roomerang",
               "patch_type": {
@@ -2255,7 +2255,7 @@
               "id": "quixort_patch",
               "linked_game": "quixort",
               "name": "Quixort",
-              "description": "Quixort",
+              "description": "Повний текстовий переклад",
               "authors": "TUSA",
               "small_description": "Quixort",
               "patch_type": {
@@ -2270,7 +2270,7 @@
               "id": "junktopia_patch",
               "linked_game": "junktopia",
               "name": "Junktopia",
-              "description": "Junktopia",
+              "description": "Повний текстовий переклад",
               "authors": "TUSA",
               "small_description": "Junktopia",
               "patch_type": {
