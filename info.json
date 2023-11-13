@@ -15,24 +15,54 @@
     "languages":["uk"],
     "links": [
         {
-            "icon":"globe",
-            "url":"https://www.jackboxgames.com/",
-            "text":"Website"
+            "icon":"youtube",
+            "url":"https://www.youtube.com/@tutusa",
+            "text":"YouTube"
         },
         {
-            "icon":"discord",
-            "url":"https://discord.com/invite/jackboxgames",
+            "icon":"twitch",
+            "url":"https://www.twitch.tv/tutusa_team",
+            "text":"Twitch"
+        },
+        {
+            "icon":"Discord",
+            "url":"https://discord.gg/Ayxf9Cvfg9",
             "text":"Discord"
         },
         {
+            "icon":"patreon",
+            "url":"http://patreon.com/TUtusa/",
+            "text":"Patreon"
+        },
+        {
             "icon":"twitter",
-            "url":"https://twitter.com/jackboxgames",
+            "url":"https://twitter.com/tutusa_team",
             "text":"Twitter"
         },
         {
-            "icon":"youtube",
-            "url":"https://www.youtube.com/@Jackboxgames",
-            "text":"YouTube"
+            "icon":"globe",
+            "url":"https://www.instagram.com/tutusa_team/",
+            "text":"Instagram"
+        },
+        {
+            "icon":"hryvnia",
+            "url":"https://donatello.to/tusa",
+            "text":"Donatello"
+        },
+        {
+            "icon":"telegram",
+            "url":"https://t.me/tutusa_team",
+            "text":"Telegram"
+        },
+        {
+            "icon":"facebook",
+            "url":"https://www.facebook.com/groups/1877966972555719",
+            "text":"Facebook"
+        },
+        {
+            "icon":"paypal",
+            "url":"https://www.paypal.com/donate/?hosted_button_id=8L94EG59Y3QMU",
+            "text":"PayPal"
         }
      ]
 }
